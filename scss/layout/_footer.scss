@@ -1,0 +1,57 @@
+.footer {
+    margin-bottom: 100px;
+    &_txt {
+      color: var(--base-black, #140a32);
+      font-family: Open Sans;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.96px;
+    }
+    .footer_all {
+      margin-top: 40px;
+      // display: flex;
+      // flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 20px;
+    }
+    &_box {
+      // justify-content: space-between;
+      &_card {
+        width: 100%;
+        max-width: 270px;
+        &_p {
+          color: var(--base-black, #140a32);
+          font-family: Open Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+  }
+  .main_p {
+    color: var(--base-black, #140a32);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .footer_all {
+      display: grid;
+      grid-template-columns: auto auto auto !important;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .footer_all {
+      display: grid;
+      grid-template-columns: auto auto !important;
+    }
+  }
+  

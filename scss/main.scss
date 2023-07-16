@@ -1,0 +1,13 @@
+@use "./base/reset";
+@use "./components/button";
+@use "./components/carousel";
+@use "./layout/footer";
+@use "./layout/header";
+@use "./pages/home";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
