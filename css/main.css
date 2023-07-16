@@ -753,7 +753,6 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 .hero_footer div {
   display: flex;
-  align-items: center;
   gap: 30px;
 }
 .hero_footer p {
@@ -788,6 +787,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
   .hero_footer {
     justify-content: space-between !important;
     width: 100% !important;
+    gap: 0px !important;
   }
   .hero_footer div {
     flex-direction: column;

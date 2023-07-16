@@ -103,7 +103,6 @@
   gap: 30px;
   & div {
     display: flex;
-    align-items: center;
     gap: 30px;
   }
   & p {
@@ -141,6 +140,8 @@
   .hero_footer {
     justify-content: space-between !important;
     width: 100% !important;
+    gap: 0px !important;
+
     & div {
       flex-direction: column;
     }
